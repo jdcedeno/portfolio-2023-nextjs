@@ -3,6 +3,7 @@
 import React from "react"
 import { Canvas, useFrame } from "@react-three/fiber"
 import { Mesh } from "three"
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js"
 
 function MyAnimatedBox() {
 	const myMesh = React.useRef<Mesh>(null!)
